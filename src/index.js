@@ -17,7 +17,7 @@ window.onload = () => {
   // Keyboard
   body.append(keyboard.generateKeyboard());
   const subtitle = createDomElement('div', '', 'subtitle');
-  subtitle.append(createDomElement('p', 'Клавиатура создана в операционной системе Windows \n Для переключения языка комбинация: левыe ctrl + alt', 'subtitle__text'));
+  subtitle.append(createDomElement('p', 'Клавиатура создана в операционной системе Windows \n Для переключения языка комбинация: левыe shift + alt', 'subtitle__text'));
   body.append(subtitle);
 
   const keyPress = (event, button, code) => {
